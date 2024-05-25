@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PYfy Personal</title>
+    <!-- <link rel="icon" href="favicon.ico" type="image/x-icon"> -->
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/utility.css" />
+  </head>
+  <body>
+    <div class="container flex bg-black">
+      <div class="left">
+        <div class="home rounded bg-grey m-1 p-1">
+          <div class="logo">
+            <img class="invert" width="110px" src="img/logo.svg" alt="logo" />
+            <img class="close" src="img/close.svg" alt="img">
+          </div>
+          <ul>
+            <li><img class="invert" src="img/home.svg" alt="home" />Home</li>
+            <li><img class="invert" src="img/search.svg" alt="search" />Search</li>
+          </ul>
+        </div>
+        <div class="library bg-grey rounded m-1 p-1">
+          <div class="heading">
+            <img src="img/playlist.svg" class="invert" alt="playlist" />
+            <h2>Your Library</h2>
+          </div>
+          <div class="songslist">
+            <ul>
+              
+            </ul>
+          </div>
+          <div class="footer">
+            <div>
+              <a href="https://www.spotify.com/in-en/legal/">
+                <span>Legal</span>
+              </a>
+            </div>
+            <div>
+              <a href="https://www.spotify.com/in-en/safetyandprivacy/"
+                ><span>Safety & Privacy</span></a
+              >
+            </div>
+            <div>
+              <a href="https://www.spotify.com/in-en/legal/privacy-policy/"
+                ><span>Privacy Policy</span>
+              </a>
+            </div>
+            <div>
+              <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"
+                ><span>About Ads</span>
+              </a>
+            </div>
+            <div>
+              <a href="https://www.spotify.com/in-en/accessibility/">
+                <span>Accessibility</span></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="right rounded bg-grey">
+        <div class="header">
+          <div class="nav">
+              <img class="hamburger" src="img/hamburger.svg" alt="img">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              width="24"
+              height="24"
+              color="#de941a"
+              fill="none"
+            >
+              <path
+                d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18"
+                stroke="#ffffff"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              width="24"
+              height="24"
+              color="#de941a"
+              fill="none"
+            >
+              <path
+                d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18"
+                stroke="#ffffff"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <div class="button">
+            <button class="signup">Sign Up</button>
+            <button class="login">Log In</button>
+          </div>
+        </div>
+        <div class="spotifyPlaylist">
+          <h1>Playlists</h1>
+          <div class="cardcontainer">
+            <!-- <div data-folder="Hindi" class="card">
+              <div class="play">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 50 50"
+                  width="50"
+                  height="50"
+                  style="background-color: #1db954; border-radius: 50%"
+                  fill="black"
+                >
+                  <circle cx="25" cy="25" r="20" fill="none" />
+                  <path
+                    d="M34.8438 25.4238L19.2188 35.2344V15.6133L34.8438 25.4238Z"
+                    fill="black"
+                  />
+                </svg>
+              </div>
+              <img
+                src="https://i.scdn.co/image/ab67616d00001e025f3ede47954a93aa03efe5f9"
+                alt="img"
+                class="rounded"
+              />
+              <h2>Happy</h2>
+              <p>
+                <span>Chill</span> <span>Music</span>
+                <span></span>
+              </p>
+            </div> -->
+            <!-- <div data-folder="Hindi" class="card">
+              <div class="play">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 50 50"
+                  width="50"
+                  height="50"
+                  style="background-color: #1db954; border-radius: 50%"
+                  fill="black"
+                >
+                  <circle cx="25" cy="25" r="20" fill="none" />
+                  <path
+                    d="M34.8438 25.4238L19.2188 35.2344V15.6133L34.8438 25.4238Z"
+                    fill="black"
+                  />
+                </svg>
+              </div>
+              <img
+                src="https://i.scdn.co/image/ab67616d00001e025f3ede47954a93aa03efe5f9"
+                alt="img"
+                class="rounded"
+              />
+              <h2>Hindi</h2>
+              <p>
+                <span>Hindi</span> <span>Top</span>
+                <span>Hits</span>
+              </p>
+            </div> -->
+          </div>
+          <div class="playbar">
+            <div class="seekbar">
+              <div class="circle"></div>
+            </div>
+            <div class="infobar">
+              <div class="songinfo"></div>
+              <div class="songbuttons">
+                <img width="35px" id="previous" src="img/prevsong.svg" alt="next" />
+                <img width="35px" id="play" src="img/play.svg" alt="play" />
+                <img width="35px" id="next" src="img/nextsong.svg" alt="next" />
+              </div>
+              <div class="volume_time">
+                <div class="songtime"></div>
+                <div class="volume">
+                  <img class="vol" width="25px" src="img/volume-high.svg" alt="img">
+                  <div class="range">
+                    <input type="range" name="volume" title="">
+                  </div>
+                </div>
+              </div>  
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="javascript/script.js"></script>
+  </body>
+</html>
